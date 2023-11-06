@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>ul {
+        text-align:center;
+        position:relative;
+        display:inline-block;
+      }
+      li {
+        list-style:none;
+        display:inline-block;
+        margin-right:35px;
+      }
+      a {
+        text-decoration:none;
+        cursor:pointer;
+      }
+      .bottom__line {
+        position:absolute;
+        top:20px;
+        left:37px;
+        width:48px;
+        height:2px;
+        background-color:#d94f5c;
+      }
+      .bottom__active {
+        transform: translate3d(0%, 0, 0);
+        transition:all linear 240ms;
+      }
+      .bottom__active1 {
+        transform: translate3d(185%, 0, 0);
+        transition:all linear 240ms;
+      }
+      .bottom__active2 {
+        transform: translate3d(375%, 0, 0);
+        transition:all linear 240ms;
+      }
+      .color,.color1,.color2 {
+        color:#d94f5c;
+        transition:all linear 100ms;
+      }</style>
+</head>
+<body>
+    <ul>
+        <li class="menu--item__one">
+          <a class="link">Home</a>
+        </li>
+        <li class="menu--item__two">
+          <a class="link1">Contact</a>
+        </li>
+        <li class="menu--item__three">
+          <a class="link2">Career</a>
+        </li>
+        <li class="bottom__line">
+      
+        </li>
+      </ul>
+</body>
+</html>
